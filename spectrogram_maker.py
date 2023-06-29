@@ -1,13 +1,11 @@
-# for data transformation
-import numpy as np
+"""
+Spectrogram for fast possible results check.
+"""
 # for visualizing the data
 import matplotlib.pyplot as plt
 # for opening the media file
-import scipy.io.wavfile as wavfile
-import scipy.signal as signal
+from scipy.io import wavfile
 
 fs, audio = wavfile.read('video_and_sound.wav')
-
 plt.specgram(audio, Fs=fs)
-
 plt.show()
