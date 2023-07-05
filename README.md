@@ -16,6 +16,6 @@
 - 138s full open = 6 624 000 values
 - 146s full close = 7 008 000 values
 - 157s half open end = 7 536 000 values
-   - AP (mu=0.4,order=5,ifc=0.005), LE (m=100,order=1,alpha=matouš), (7 400 000-7 600 000)
+   - AP (mu=0.4,order=5,ifc=0.005), LE (m=100,order=2,alpha=matouš), (7 400 000-7 600 000)
   - AP (mu=0.4,order=5,ifc=0.005), ESE, (7 490 000-7 510 000)
 - 164s half close end = 7 872 000 values
