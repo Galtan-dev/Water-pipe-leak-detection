@@ -13,8 +13,8 @@ d = np.reshape(target_matrix, (k,))
 x = np.reshape(in_matrix, (k, 5))
 
 # detection
-# f = pa.filters.FilterGNGD(n=5, mu=0.50, w="zeros")
-f = pa.filters.FilterAP(n=5, order=5, mu=0.50, ifc=0.005, w="zeros")
+# f = pa.filters.FilterGNGD(n=5, mu=0.90, w="zeros")
+f = pa.filters.FilterAP(n=5, order=5, mu=0.5, ifc=0.005, w="zeros")
 y, e, w = f.run(d, x)
 
 # det = pa.detection.learning_entropy(w, m=50, order=1, alpha=[8., 9., 10., 11., 12., 13.])

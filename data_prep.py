@@ -2,10 +2,6 @@ from scipy.io import wavfile
 import numpy as np
 import math
 
-# 37s full open = 1 776 000 values
-
-
-
 # open file with sound data
 sampling_frequency, sound_data_orig = wavfile.read('video_and_sound.wav')
 start = 1790000
@@ -17,7 +13,6 @@ for i in range(0, len(sound_data_orig)):
         sound_data.append(sound_data_orig[i])
     else:
         sound_data.append(math.log(abs(sound_data_orig[i])))
-
 
 # inputs one by one - continuously drifted by one
 in_1 = []
