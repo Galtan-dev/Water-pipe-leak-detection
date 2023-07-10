@@ -1,7 +1,7 @@
 ## Work Settings Datalog
 ### disturbances
-- 10s half open start  = 480 000 values  NOK
-- 21s half close start = 1 008 000 values POK
+- 10s half open 1  = 480 000 values  NOK
+- 21s half close 1 = 1 008 000 values POK
   - GNGD (mu=0.9), ELBND (function=max), (900 000-1 100 000)
   - AP (mu=0.55,order=5,ifc=0.005), ESE, (975 000-1 025 000)
 - 37s full open 1  = 1 776 000 values OK
@@ -10,12 +10,12 @@
 - 45s full close 1 = 2 160 000 values
 - 56s quarter open = 2 688 000 values
 - 66s quarter close = 3 168 000 values
-- 74s half open = 3 552 000 values
-- 84s half close = 4 032 000 values
+- 74s half open 2 = 3 552 000 values
+- 84s half close 2 = 4 032 000 values
 - 118s quarter open = 5 664 000 values
 - 138s full open 2 = 6 624 000 values
 - 146s full close 2 = 7 008 000 values
-- 157s half open end = 7 536 000 values OK
+- 157s half open 3 = 7 536 000 values OK
    - AP (mu=0.4,order=5,ifc=0.005), LE (m=100,order=2,alpha=matouš), (7 400 000-7 600 000)
   - AP (mu=0.4,order=5,ifc=0.005), ESE, (7 490 000-7 510 000)
-- 164s half close end = 7 872 000 values
+- 164s half close 3 = 7 872 000 values
