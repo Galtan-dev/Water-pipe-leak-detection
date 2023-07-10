@@ -8,13 +8,13 @@
     - AP (mu=0.5,order=5,ifc=0.005), LE (m=50,order=1,alpha=matouš), (1 700 000-1 900 000)
     - AP (mu=0.5,order=5,ifc=0.005), ESE, (1 790 000-1 800 000)
 - 45s full close 1 = 2 160 000 values
-- 56s quarter open = 2 688 000 values OK
-  - AP ((mu=0.45,order=5,ifc=0.005), ELBND (function=max), (2 500 000-2 800 000)
-  - 
+- 56s quarter open = 2 688 000 values POK
+  - AP (mu=0.45,order=5,ifc=0.005), ELBND (function=max), (2 500 000-2 800 000)
+  - AP (mu=0.45,order=5,ifc=0.005), ESE, (2 640 000-2 700 000)
 - 66s quarter close = 3 168 000 values
 - 74s half open 2 = 3 552 000 values
 - 84s half close 2 = 4 032 000 values
-- 118s quarter open = 5 664 000 values
+- 118s quarter open = 5 664 000 values NOK
 - 138s full open 2 = 6 624 000 values
 - 146s full close 2 = 7 008 000 values
 - 157s half open 3 = 7 536 000 values OK
