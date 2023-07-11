@@ -14,12 +14,12 @@ x = np.reshape(in_matrix, (k, 5))
 
 # detection
 # f = pa.filters.FilterGNGD(n=5, mu=0.50, w="zeros")
-f = pa.filters.FilterAP(n=5, order=5, mu=0.4, ifc=0.005, w="zeros")
+f = pa.filters.FilterAP(n=5, order=5, mu=0.40, ifc=0.005, w="zeros")
 y, e, w = f.run(d, x)
 
-# det = pa.detection.learning_entropy(w, m=100, order=2, alpha=[8., 9., 10., 11., 12., 13.])
-# det = pa.detection.ELBND(w, e, function="max")
-det = pa.detection.ESE(w)
+# det = pa.detection.learning_entropy(w, m=100, order=3, alpha=[8., 9., 10., 11., 12., 13.])
+det = pa.detection.ELBND(w, e, function="sum")
+# det = pa.detection.ESE(w)
 
 # ploting
 fig, axs = plt.subplots(2, 1)

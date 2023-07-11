@@ -4,8 +4,8 @@ import math
 
 # open file with sound data
 sampling_frequency, sound_data_orig = wavfile.read('video_and_sound.wav')
-start = 7490000
-end = 75107 40000
+start = 5600000
+end = 5700000
 sound_data = []
 
 for i in range(0, len(sound_data_orig)):
